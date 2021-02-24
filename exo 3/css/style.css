@@ -1,0 +1,43 @@
+/*############ CSS Principal ############*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/*############ CSS HEADER ############*/
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/detox-cure-smoothie.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 15px 0;
+}
+
+header nav img {
+  width: 100px;
+}
+
+header h1 {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 8px;
+  padding: 150px 0 170px;
+}
+
+/*############ CSS MAIN FABRICATION ############*/
+main #fabrication {
+  background: linear-gradient(#feb4c3, #f59e28);
+}
+
+/*############ CSS MAIN CONCEPT ############*/
+main #concept {
+  padding-bottom: 75px;
+}
+
+/*############ CSS FOOTER ############*/
+footer {
+  background: #f59e28;
+}

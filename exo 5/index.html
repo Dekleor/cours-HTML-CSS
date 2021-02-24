@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <Header>
+        <h1>Candidater pour partir en voyage</h1>
+        <p>Notre société <strong>Evasion</strong> vous propose de découvrir en avant première des lieux paradisiaques que nous osuhaitons ajouter à notre catalogue. Merci de remplir les différents champs ci-dessous pour candidater au poste d'<strong>Eva'discover</strong></p>
+    </Header>
+
+    <main>
+        <section id="coordonnees">
+            <fieldset>
+                <legend>Coordonnées</legend>
+                <form action="">
+                    <label for="email">Votre email (*):</label>
+                    <input type="email" id="email">
+                    <br>
+                    <label for="phone">Votre téléphone :</label>
+                    <input type="text" id="phone">
+            </form>
+            </fieldset>
+        </section>
+
+        <section id="infoperso">
+            <fieldset>
+                <legend>Informations personnelles</legend>
+
+                <form action="">
+                    <label for="name">Votre nom :</label>
+                    <input type="text" id="name">
+                    <br>
+                    <label for="surname">Votre prénom :</label>
+                    <input type="text" id="surname">
+                </form>
+                <hr>
+                <form action="">
+                    <div class="aligned">
+                        <p>Vous êtes plutôt :</p>
+                        <label>une femme
+                            <input type="checkbox" name="femme">
+                        </label>
+                        <label>un homme
+                            <input type="checkbox" name="homme">
+                        </label>
+                        <label>autre
+                            <input type="checkbox" name="autre">
+                        </label>
+                    </div>
+                </form>
+                <hr>
+                <form action="">
+                    <label for="adress">Votre adresse :</label>
+                    <input type="text" id="adress">
+                    <br>
+                    <label for="postcode">Votre code postal :</label>
+                    <input type="number" id="postcode">
+                    <br>
+                    <label for="city">Votre ville :</label>
+                    <input type="text" id="city">
+                    <br>
+                    <label for="departement">Votre département</label>
+                    <select name="departement" id="departement">
+                        <option value="ain">Ain</option>
+                        <option value="aisne">Aisne</option>
+                        <option value="allier">Allier</option>
+                        <option value="ahp">Alpes de Haut Provence</option>
+                        <option value="hautesalpes">Hautes-Alpes</option>
+                        <option value="etc">Etc</option>
+                    </select>
+                </form>
+                <hr>
+                <p>Quel budget êtes vous prêt à investir pour valider votre candidature ?</p>
+                <div class="aligned">
+                <p>budget :</p>
+                    <form action="">
+                        <input type="range" list="tickmarks">
+                        <datalist id="tickmarks">
+                            <option value="200" label="200€">
+                            <option value="300">
+                            <option value="400">
+                            <option value="500">
+                            <option value="600">
+                            <option value="700">
+                            <option value="800">
+                            <option value="900">
+                            <option value="3000" label="3000€">
+                        </datalist>
+                    </form>
+                </div>
+            </fieldset>
+        </section>
+
+        <section id="langues">
+            <fieldset>
+                <legend>Langues</legend>
+                <p>Merci de coccher toutes les langues que vous pratiquez: </p>
+                <form action="">
+                    <label>anglais
+                       <input type="checkbox" name="anglais">
+                    </label>
+                    <label>français
+                        <input type="checkbox" name="francais">
+                    </label>
+                    <label>espagnol
+                        <input type="checkbox" name="espagnol">
+                    </label>
+                    <label>italien
+                        <input type="checkbox" name="italien">
+                    </label>
+                    <label>allemand
+                        <input type="checkbox" name="allemand">
+                    </label>
+                    <label>arménien
+                        <input type="checkbox" name="arménien">
+                    </label>
+                </form>
+            </fieldset>
+        </section>
+
+        <section id="destination">
+            <fieldset>
+                <legend>Vos destinations de rêves</legend>
+                <p>choisir vos destinations</p>
+                <label for="departement">Votre département</label>
+                <select name="departement" id="departement">
+                    <option value="martinique">martinique</option>
+                    <option value="réunion">Réunion</option>
+                    <option value="guadeloupe">Guadeloupe</option>
+                    <option value="guyane">Guyane</option>
+                    <option value="mayotte">Mayotte</option>
+                    <option value="etc">Etc</option>
+                </select>
+            <p><em>Bien maintenir la touche CTRL enfoncée pour sélectionner plusieurs choix</em></p>
+            </fieldset>
+        </section>
+    </main>
+</body>
+</html>

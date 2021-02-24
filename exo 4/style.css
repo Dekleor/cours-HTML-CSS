@@ -1,0 +1,138 @@
+/*##################### GENERAL #####################*/
+body {
+  font-family: "Raleway", sans-serif;
+  max-width: 1060px;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Mandali", sans-serif;
+  text-align: center;
+  font-size: 70px;
+  letter-spacing: 10px;
+  margin-bottom: 20px;
+  margin-top: 150px;
+}
+
+h2 {
+  font-family: "Mandali", sans-serif;
+  color: #6e8e9b;
+}
+
+h2::after {
+  content: "";
+  width: 2px;
+  height: 50px;
+  background-color: #6e8e9b;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.button {
+  background: white;
+  color: black !important;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 5px black;
+  margin: 0 5px;
+}
+
+/*##################### HEADER #####################*/
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(img/yogamat.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 30px 20px 200px 20px;
+}
+
+header div {
+  text-align: center;
+}
+
+header div p {
+  margin-bottom: 50px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header li {
+  padding: 0px 10px;
+}
+
+header ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*##################### MAIN CONCEPT #####################*/
+#concept div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#concept div div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#concept div img {
+  width: 75px;
+  height: 75px;
+  box-shadow: 2px 2px 5px black;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+#concept h3,
+p {
+  margin: 1px 0;
+  padding: 10px 0;
+}
+
+/*##################### MAIN COURS #####################*/
+#cours {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#cours img {
+  padding-right: 20px;
+  height: 250px;
+  width: 250px;
+  object-fit: contain;
+}
+
+/*##################### MAIN CONTACT #####################*/
+#contact div {
+  display: flex;
+  flex-direction: row;
+}
+
+#contact input {
+  width: 250px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2) inset;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  color: #6e8e9b;
+  padding-left: 10px;
+}
+
+/*##################### FOOTER #####################*/
+footer {
+  background: #6e8e9b;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  padding: 5px 0;
+}

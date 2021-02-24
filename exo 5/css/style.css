@@ -1,0 +1,30 @@
+/*##################### GENERAL #####################*/
+body {
+  background: url(../img/background.jpg);
+  background-size: cover;
+  padding: 10px;
+}
+
+label {
+  display: block;
+  width: 150px;
+  float: left;
+}
+
+.aligned {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/*##################### HEADER #####################*/
+
+/*##################### COORDONNEES #####################*/
+
+/*##################### INFO PERSO #####################*/
+
+/*##################### LANGUES #####################*/
+
+/*##################### DESTINATION #####################*/
+
+/*##################### FOOTER #####################*/

@@ -1,0 +1,93 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+}
+
+header {
+  background-image: url(img/pyramides.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 100px 20px 120px;
+}
+
+h1 {
+  font-family: "Amatic SC", cursive;
+  font-size: 50px;
+  line-height: 100%;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+}
+
+header a {
+  color: white;
+}
+
+#destinations {
+  display: flex;
+  justify-content: space-between;
+}
+
+#column {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  padding-top: 10px;
+  width: 60%;
+}
+
+#column li {
+  padding-top: 20px;
+}
+
+img {
+  width: 30%;
+  max-width: 350px;
+  max-height: 350px;
+}
+
+#formules {
+  text-align: center;
+}
+
+#formules div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.square {
+  border: solid darksalmon;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+#concept {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#concept div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.prix {
+  color: darksalmon;
+  font: 30px;
+}
+
+#button {
+  color: darksalmon;
+  border: solid darksalmon;
+  padding: 10px;
+}
