@@ -1,0 +1,91 @@
+:root {
+    --bleu: 49,57,173;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2 {
+ font-family: 'Syne Mono', monospace;
+}
+
+h2 {
+ font-size: 30px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.button {
+    border: none;
+    background-color: rgb(var(--bleu));
+    padding: 10px;
+    color: white!important;
+}
+
+/*############ HEADER #############*/
+header{
+    background: url(../img/bg-earth.jpg);
+    background-size: cover;
+}
+
+header img{
+    width: 100px;
+}
+
+header h1 {
+    font-size: 60px;
+    margin-top: 150px;
+}
+
+header::after {
+    content: "";
+    height: 10px;
+    background-color: rgb(var(--bleu));
+    margin-top: 150px;
+    display: block;
+}
+
+/*############ MAIN GOALS #############*/
+main #goals h2 {
+    color: rgb(var(--bleu));
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*############ MAIN EXPLORATIONS #############*/
+main #explorations {
+    background: url(../img/bg-stars.jpg);
+    background-size: cover;
+    padding: 40px 0 50px;
+}
+
+/*############ MAIN GOALS #############*/
+main #sponsors h2 {
+    color: rgb(var(--bleu));
+    margin-top: 50px;
+    text-align: center;
+}
+
+main .secondary {
+    margin-top: 60px;
+    margin-bottom: -40px;
+}
+
+/*############ FOOTER #############*/
+footer{
+    background: black;
+}
+
+footer::before{
+    content: "";
+    height: 10px;
+    background-color: rgb(var(--bleu));
+    margin-top: 150px;
+    display: block;
+}
+footer img {
+    width: 100px;
+}
